@@ -1,0 +1,16 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Fisher",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.9",
+    "unique-random-array": "^1.0.0"
+  }
+}
