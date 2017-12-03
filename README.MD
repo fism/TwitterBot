@@ -38,7 +38,7 @@ Contributions welcome; Please submit all pull requests the against master branch
 
 ## Author
 
-Michael Fisher
+Michael Fisher <mfisher@techcpu.net> - Twitter: [@Fisher85M](https://twitter.com/Fisher85M)
 
 ## License
 
