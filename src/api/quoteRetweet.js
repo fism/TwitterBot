@@ -20,7 +20,6 @@ function datestring() {
 
 var quoteTweet = function () {
     var query = queryString();
-    //var query = 'from:Fisher85M -filter:retweets -filter:replies';
     var params = {
         q: query,
         result_type: param.resultType,
@@ -37,7 +36,7 @@ var quoteTweet = function () {
         var tweet = data.statuses[rando];
 
         // Filter a bit more on Tweets we don't want.
-        if (tweet.user.screen_name === 'techcpu_ebooks') return;    // No repeats!
+        if (tweet.user.screen_name === 'techcpu') return;           // No repeats!
         if (tweet.text.indexOf('RT') >= 0) return;                  // No IFTTT!
         if (tweet.text.indexOf('#mpgvip') >= 0) return;             // No bot tagging!
         if (tweet.text.indexOf('#makeyourownlane') >= 0) return;    // No bot tagging!

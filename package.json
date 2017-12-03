@@ -1,5 +1,5 @@
 {
-  "name": "twitterbot",
+  "name": "twitterbot-fism",
   "version": "1.0.0",
   "description": "An example twitter bot using node.js.",
   "main": "index.js",
@@ -9,9 +9,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "readme": "node ./node_modules/.bin/node-readme"
   },
-  "author": "Michael Fisher",
+  "author": "Michael Fisher <mfisher@techcpu.net> (git://github.com/fism/TwitterBot.git)",
   "license": "Apache-2.0",
   "dependencies": {
     "dotenv": "^4.0.0",
